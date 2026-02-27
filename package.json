@@ -6,7 +6,7 @@
 	"author": "RisingWave Labs",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/risingwavelabs/agent-skills.git"
+		"url": "https://github.com/risingwavelabs/risingwave-agent-skills.git"
 	},
 	"scripts": {
 		"build": "node packages/skills-build/dist/index.js",

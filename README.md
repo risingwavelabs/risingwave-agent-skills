@@ -17,7 +17,7 @@ Agent skills are folders of instructions, scripts, and resources that AI coding 
 First, clone or download this repository:
 
 ```bash
-git clone https://github.com/risingwavelabs/agent-skills.git
+git clone https://github.com/risingwavelabs/risingwave-agent-skills.git
 ```
 
 Then follow the instructions for your AI assistant below. The examples use `risingwave-troubleshooting` — repeat for any other skills you want to install (`performance-tuning`, `grafana-debugging`).
