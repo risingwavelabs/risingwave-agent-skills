@@ -1,0 +1,29 @@
+{
+	"name": "risingwave-agent-skills",
+	"owner": "RisingWave Labs <support@risingwave.com>",
+	"description": "Official RisingWave agent skills for Claude Code, Claude Desktop, OpenAI Codex, GitHub Copilot, Cursor, and other AI coding assistants",
+	"version": "1.0.0",
+	"plugins": [
+		{
+			"name": "risingwave-troubleshooting",
+			"description": "Production troubleshooting guides for RisingWave streaming database",
+			"source": "./",
+			"strict": false,
+			"skills": "./skills/risingwave-troubleshooting"
+		},
+		{
+			"name": "performance-tuning",
+			"description": "Streaming SQL performance edge cases and MV architecture anti-patterns",
+			"source": "./",
+			"strict": false,
+			"skills": "./skills/performance-tuning"
+		},
+		{
+			"name": "grafana-debugging",
+			"description": "Grafana-based debugging with CLI tool for RisingWave metrics investigation",
+			"source": "./",
+			"strict": false,
+			"skills": "./skills/grafana-debugging"
+		}
+	]
+}

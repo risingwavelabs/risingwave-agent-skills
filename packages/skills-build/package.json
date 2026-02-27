@@ -1,0 +1,18 @@
+{
+	"name": "@risingwave/skills-build",
+	"version": "1.0.0",
+	"description": "Build tooling for RisingWave agent skills",
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"gray-matter": "^4.0.3",
+		"glob": "^10.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"typescript": "^5.0.0"
+	}
+}

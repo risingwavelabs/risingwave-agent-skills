@@ -1,0 +1,22 @@
+{
+	"name": "@risingwave/grafana-cli",
+	"version": "1.0.0",
+	"description": "CLI tool for Grafana dashboard search, panel listing, and panel rendering",
+	"type": "module",
+	"main": "dist/cli.js",
+	"bin": {
+		"grafana-cli": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsx src/cli.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"tsx": "^4.21.0",
+		"typescript": "^5.0.0"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}

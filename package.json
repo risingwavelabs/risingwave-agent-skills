@@ -1,0 +1,32 @@
+{
+	"name": "risingwave-agent-skills",
+	"version": "1.0.0",
+	"description": "Official RisingWave agent skills for Claude Code, Claude Desktop, OpenAI Codex, GitHub Copilot, Cursor, and other AI coding assistants",
+	"license": "MIT",
+	"author": "RisingWave Labs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/risingwavelabs/agent-skills.git"
+	},
+	"scripts": {
+		"build": "node packages/skills-build/dist/index.js",
+		"build:tools": "tsc -p packages/skills-build/tsconfig.json",
+		"validate": "node packages/skills-build/dist/validate.js",
+		"test": "vitest",
+		"test:sanity": "vitest run",
+		"lint": "biome lint .",
+		"format": "biome format . --write",
+		"ci:check": "biome ci .",
+		"build:grafana-cli": "tsc -p tools/grafana-cli/tsconfig.json",
+		"test:grafana-cli": "vitest run tools/grafana-cli/src/__tests__/"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0",
+		"@types/node": "^20.0.0",
+		"typescript": "^5.0.0",
+		"vitest": "^3.0.0"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}
